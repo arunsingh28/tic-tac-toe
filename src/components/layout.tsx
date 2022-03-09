@@ -2,9 +2,9 @@ import React from 'react'
 
 const Layout = () => {
     return (
-        <div>
+        <div className='_main'>
             <h1>Tic tac toe Game</h1>
-            <div className='b-full'>
+            <div className='container'>
                 <div className='flex'>
                     <div>11</div>
                     <div>12</div>
@@ -16,9 +16,9 @@ const Layout = () => {
                     <div>23</div>
                 </div>
                 <div className='flex'>
-                    <div>21</div>
-                    <div>22</div>
-                    <div>23</div>
+                    <div>31</div>
+                    <div>32</div>
+                    <div>33</div>
                 </div>
             </div>
         </div>
